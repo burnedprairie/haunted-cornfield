@@ -10,25 +10,31 @@
 
 <body>
    
-    <header>
-        <h1> <a style="color: yellow; text-decoration: none;" href="index.html">Haunted Cornfield</a> </h1>
-        <hr>
-        <a href="info.html">INFO</a>
-        <a class="headerlink" href="">ARCHIVE</a>
-        
-    </header>
 
     <br>
 
     <main>
-        <p class="title">UPCOMING EVENTS</p>
-        <p>Nosferatu - 12/25/2024 - Starts at 8PM sharp <br> Free unlimited candy & popcorn awaits</p>
-        <p style="color: blue;">Limited seating available: RSVP@HAUNTEDCORNFIELD.COM</p>
+        
+
+        <div class="centered">
+
+            <script>
+                function play() {
+                  var audio = document.getElementById("audio");
+                  audio.play();
+                }
+              </script>
+      
+          <input type="image" src="img/waiting.jpg" onclick="play()">
+          <audio loop id="audio" src="outdoors.mp3"></audio>
+
+          <p style="color: red;">
+            www.hauntedcornfield.com coming soon...
+          </p>
+
+        </div>
+
     </main>
-
-    <br>
-
-    <img src="img/eyes.jpg" alt="">
 
 </body>
     
